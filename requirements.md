@@ -56,7 +56,7 @@ or creating a new Python 3.5 environment using the
 **Included in Anaconda distribution (install them with `pip install` if you do not use Anaconda)**
 * lxml (v3.3.1-0 or later).
 * beautifulsoup4 (v4.2.1 or later).
-* pyzmq (v14.3.0 or later, see above).
+* pyzmq / pyzmq-dev (v14.3.0 or later, see above).
 * dateutils (v2.2 or later, see above).
 * requests (v2.2.1 or later).
 * redis (v2.10.3 or later).
