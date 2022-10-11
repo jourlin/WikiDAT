@@ -3,6 +3,8 @@ Step by step
 Software dependencies:
   Make sure 7za is installed [should program check it is / throw a more explicit error if it is not?]
   sudo apt-get install p7zip-full
+  
+> python3 setup.py install
 
 Follow installation guide from:
   https://github.com/glimmerphoenix/WikiDAT/wiki/Installation-guide
@@ -14,8 +16,8 @@ NOTE: LOAD DATA LOCAL must be enabled. You should set the option local-infile=1 
 Run :
 
 As described on the Quick start guide (https://github.com/glimmerphoenix/WikiDAT/wiki/Quick-start-guide) run the following command to start file download and data extraction:
-
-python main.py -c MyConfigFile.ini
+> cd wikidat
+> python3 main.py -c MyConfigFile.ini
 
 [The following steps are not on the quick start guide. Maybe they should?]
 
